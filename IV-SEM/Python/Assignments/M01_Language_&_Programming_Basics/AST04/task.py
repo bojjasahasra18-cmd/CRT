@@ -1,5 +1,10 @@
 def Reverse_String(s: str) -> str:
-   pass
+   c = ''
+   for i in range(len(s)-1, -1, -1):
+      c += s[i]
+   return c
+   
+
 
 
 if __name__ == '__main__':
